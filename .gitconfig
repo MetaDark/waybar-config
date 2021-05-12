@@ -1,0 +1,13 @@
+[remote "gitlab"]
+	url = https://gitlab.com/MetaDark/waybar-config.git
+	fetch = +refs/heads/*:refs/remotes/gitlab/*
+[remote "github"]
+	url = https://github.com/MetaDark/waybar-config.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[remote "all"]
+	url = https://gitlab.com/MetaDark/waybar-config.git
+	fetch = +refs/heads/*:refs/remotes/all/*
+	pushurl = git@gitlab.com:MetaDark/waybar-config.git
+	pushurl = git@github.com:MetaDark/waybar-config.git
+[remote]
+	pushDefault = all
